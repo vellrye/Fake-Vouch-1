@@ -5,7 +5,7 @@ import random
 class FakeVouch:
     def __init__(self):
 
-        self.webhook_url = input('Webhook URL: ')
+        self.webhook_url = input('Webhook URL:https://discord.com/api/webhooks/1519965504033263716/bZa6sZYwFduYs2TYW65muFf-s61UUqYjSj07famwpELlJESc552hOeWYMDbNQgPIk3Fx')
         self.num_requests = int(input('How many requests do you want to send? '))
         self.use_delay = input('Use delay? (y/n) ').lower() == 'y'
 
